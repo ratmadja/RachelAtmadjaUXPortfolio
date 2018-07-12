@@ -1,0 +1,764 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, .root {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+body {
+  font-family: 'spectral', serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #333333;
+}
+
+.container {
+  margin: auto;
+  max-width: 1280px;
+}
+
+main {
+  margin: 0em 4.5em;
+}
+
+/* Start of typography sizes */
+
+h1 {
+  font-family: 'work sans', sans-serif;
+  font-size: 4em;
+  font-weight: 500;
+  font-kerning: auto;
+  line-height: 1.06666667em;
+  margin-top: 0.53333333em;
+  margin-bottom: 1.06666666em;
+  color: #333333;
+}
+
+h2 {
+  font-family: 'work sans', sans-serif;
+  font-size: 2.8125em;
+  line-height: 1.06666667em;
+  margin-top: 0.53333333em;
+  margin-bottom: 1.06666666em;
+}
+
+h3 {
+  font-family: 'spectral', serif;
+  font-size: 2em;
+  line-height: 1.5em;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+h4 {
+  font-family: 'spectral', serif;
+  font-size: 1.4375em;
+  line-height: 1.5em;
+  margin-top: 1.04347826em;
+  margin-bottom: 0em;
+}
+
+
+h5 {
+  font-family: 'work sans', sans-serif;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  margin-top: 1.04347826em;
+  margin-bottom: 0em;
+}
+
+p {
+  font-family: 'spectral', serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: 1.5em;
+  margin-bottom: 0em;
+}
+
+.work-name {
+  font-family: 'work sans', sans-serif;
+  font-weight: 400;
+  font-size: 0.85em;
+  line-height: 1.5em;
+  margin-top: 1.5em;
+  margin-bottom: -4.5em;
+  font-stretch: expanded;
+  color: #919191;
+
+}
+
+/* End of typography sizes */
+
+
+/*------- Start of logo and nav styling -------*/
+
+header {
+  margin-top: 4.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.ralogo {
+  background: url(../assets/homepage/ralogo48.svg) center / cover;
+  height: 48px;
+  width: 76px;
+}
+
+.nav-main {
+  margin: 1.5em;
+  width: 240px;
+}
+
+.menu {
+  border-bottom: 1px solid #E6E6E6;
+  line-height: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a {
+  /* border: 1px solid red; */
+  padding-bottom: 0.45em;
+  text-decoration: none;
+  color: #333333;
+  font-size: 0.75em;
+  font-weight: 500;
+  font-family: 'work sans', sans-serif;
+}
+
+.menu a:hover {
+  border-bottom: 1px solid #DA9218;
+  margin-bottom: 1em;
+}
+
+/*------- End of logo and nav styling -------*/
+
+
+
+
+/*------- Start of hero styling -------*/
+
+.hero-image {
+  /* border: 1px solid #c3c3c3; */
+  margin: 4.5em 0em;
+  display: grid;
+  grid-gap: 0em 1.5em;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.hero-one {
+  grid-column: 1 / -1;
+  height: auto;
+}
+
+.hero-two {
+  grid-column: 1 / 4;
+  margin-top: 2em;
+}
+
+.hero-two h5 {
+  font-weight: 400;
+  color: #919191;
+}
+
+.hero-two p {
+  font-family: 'Fira Mono', monospace;
+  font-size: 0.8em;
+  margin-top: 0.25em;
+}
+
+.hero-three {
+  grid-column: 4 / -1;
+  margin-top: 1em;
+}
+
+/*------- End of hero styling -------*/
+
+
+
+/*------- Start of container styling -------*/
+
+.section-title {
+  margin: auto;
+  margin-top: 3em;
+  text-align: center;
+}
+
+.page-separator {
+  margin: auto;
+  width: 5em;
+  height: 1px;
+  background-color: #DA9218;
+  margin-top: 2em;  /*Controls distance to section-title*/
+}
+
+
+/* Start of WORK Styling */
+
+.section-work {
+  /* border: 1px solid grey; */
+  margin-top: 9em;
+}
+
+.work-casestudy {
+  /* border: 1px solid red; */
+  margin-top: 4em;
+  display: grid;
+  grid-gap: 0em 1.5em;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.work-description {
+  border-top: 1px solid #C5C5C5;
+  grid-column: 1 / 5;
+}
+
+.casestudy-scope {
+  font-family: 'work sans', sans-serif;
+  color: #919191;
+}
+
+.workcover-container {
+  grid-column: 5 / -1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.workcover {
+  width: 100%;
+}
+
+.worklink {
+  display: inline-block;
+  margin: 1.5em 0em;
+  color: #777777;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: 'work sans', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  line-height: 1.5em;
+  border-bottom: 1px solid #C5C5C5;
+}
+
+.worklink:hover {
+  color: #333333;
+  border-bottom: 1px solid #DA9218;
+}
+
+
+/* Start of Past Work Styling */
+
+
+.section-pastwork {
+  /* border: 1px solid #c3c3c3; */
+  margin-top: 9em;
+  margin-bottom: 9em;
+  display: grid;
+  grid-gap: 0em 1.5em;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.pastwork-title {
+  color: #919191;
+}
+
+.pastwork-heading {
+  height: 1.5em;
+}
+
+.pwArch {
+  /* border: 1px solid #c3c3c3; */
+  grid-column: 1 / 5;
+}
+
+.pwFloristry {
+  /* border: 1px solid #c3c3c3; */
+  grid-column: 5 / 9;
+}
+
+.pwFurn {
+  /* border: 1px solid #c3c3c3; */
+  grid-column: 9 / -1;
+}
+
+.pwArch,
+.pwFloristry,
+.pwFurn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.pastwork-description {
+  border-top: 1px solid #C5C5C5;
+}
+
+.pastworkcover {
+  width: 100%;
+}
+
+/* End of Past Work Styling */
+
+
+/* ------Start of Footer Styling------ */
+
+.footer-container {
+  background-color: #F4F4F4;
+}
+
+footer {
+  /* border: 1px solid black; */
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0em 4em;
+}
+
+.footer-separator {
+  margin: auto;
+  width: 16em;
+  height: 1px;
+  background-color: #DA9218;
+  margin-top: 0.75em;  /*Controls distance to section-title*/
+}
+
+.email {
+  padding-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.contactlinks {
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+  border-bottom: 1px solid #DA9218;
+}
+
+.contact-link a {
+  color: #777777;
+  font-family: 'work sans', sans-serif;
+  font-size: 0.85em;
+  font-weight:500;
+  text-decoration: none;
+  padding-bottom: 0.25em;
+}
+
+.contact-link a:hover {
+  color: #333333;
+}
+
+.credit {
+  text-align: center;
+  color: #333333;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-bottom: 3em;
+}
+/* ------End of Footer Styling------ */
+
+
+@media only screen and (min-width:1281px) {
+
+  /*--aligns pastwork links--*/
+  .pastwork-descandlink {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+
+/*bluezone*/
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+
+  /* .container {
+  border: 1px solid blue;
+  } */
+
+  main {
+    margin: 0em 3em;
+  }
+  header {
+    /* border: 1px solid red; */
+    margin-top: 3em;
+  }
+  nav {
+    margin-top: 1.5em;
+  }
+  /* .ralogo {
+    background: url(../assets/homepage/ralogo36.svg) center / cover;
+    height: 36px;
+    width: 57px;
+  } */
+  .hero-image {
+    /* border: 1px solid #c3c3c3; */
+    margin: 3em 0em;
+  }
+  /* .hero-one h3{
+    font-family: 'spectral', serif;
+    font-size: 1.4375em;
+    line-height: 1.5em;
+    margin-top: 1.04347826em;
+    margin-bottom: 0em;
+  } */
+  .work-description h3{
+    font-family: 'spectral', serif;
+    font-size: 1.4375em;
+    line-height: 1.5em;
+    margin-top: 1.04347826em;
+    margin-bottom: 0em;
+  }
+  .hero-two p {
+    font-size: 0.75em;
+  }
+  .hero-two {
+    margin-top: 2em;
+  }
+  .hero-three {
+    margin-top: 1em;
+  }
+  .section-title {
+    font-family: 'work sans', sans-serif;
+    font-size: 2.8125em;
+    line-height: 0.75em;
+    margin-top: 3em;
+    margin-bottom: 0em;
+  }
+
+  /*--aligns pastwork links--*/
+  .pastwork-descandlink {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  /*--aligns pastwork links--*/
+
+  footer li {
+    display: block;
+  }
+}
+
+/*redzone*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+  .casestudy-scope {
+    font-size: 0.8em;
+  }
+  main {
+    margin: 0em 3em;
+  }
+  .menu a {
+    font-weight: 500;
+  }
+  header {
+    /* border: 1px solid red; */
+    margin-top: 3em;
+  }
+  nav {
+    margin-top: 1.5em;
+  }
+  .ralogo {
+    background: url(../assets/homepage/ralogo36.svg) center / cover;
+    height: 36px;
+    width: 57px;
+  }
+  .hero-image {
+    margin: 1em 0em;
+  }
+  .hero-one h3{
+    font-family: 'spectral', serif;
+    font-size: 1.4375em;
+    line-height: 1.5em;
+    margin-top: 1.04347826em;
+    margin-bottom: 0em;
+  }
+  .work-description h3{
+    font-family: 'spectral', serif;
+    font-size: 1.4375em;
+    line-height: 1.5em;
+    margin-top: 1.04347826em;
+    margin-bottom: 0em;
+  }
+  .hero-two p {
+    font-size: 0.8em;
+  }
+  .hero-one {
+    grid-column: 1 / -1;
+  }
+  .hero-two {
+    margin-top: 2em;
+    grid-column: 1 / -1;
+    order: 1;
+  }
+  .hero-three {
+    margin-top: 1em;
+    grid-column: 1 / -1;
+  }
+  .section-title {
+    font-family: 'work sans', sans-serif;
+    font-size: 2.8125em;
+    line-height: 0.75em;
+    margin-top: 3em;
+    margin-bottom: 0em;
+  }
+  .pastwork-title {
+    display: none;
+  }
+  .pwArch,
+  .pwFloristry,
+  .pwFurn {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    margin-top: 2em;
+  }
+  .pastwork-description,
+  .pastworkcover-container {
+    width: 50%;
+  }
+  .pastwork-description {
+    margin-right: 1em;
+  }
+  footer li {
+    display: block;
+  }
+
+}
+
+/*greenzone*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+  .casestudy-scope {
+    font-size: 0.8em;
+  }
+  main {
+    margin: 0em 1.5em;
+  }
+  .menu a {
+    font-weight: 500;
+  }
+  header {
+    /* border: 1px solid red; */
+    margin-top: 3em;
+  }
+  nav {
+    margin-top: 1.5em;
+  }
+  .ralogo {
+    background: url(../assets/homepage/ralogo24.svg) center / cover;
+    height: 36px;
+    width: 57px;
+  }
+  .hero-image {
+    margin: 1em 0em;
+  }
+  .hero-one h3,
+  .hero-three h4 {
+    font-family: 'spectral', serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-top: 1.04347826em;
+    margin-bottom: 0em;
+  }
+  .work-description h3{
+    font-family: 'spectral', serif;
+    font-size: 1.4375em;
+    line-height: 1.5em;
+    margin-top: 1.04347826em;
+    margin-bottom: 0em;
+  }
+  .hero-two p {
+    font-size: 0.75em;
+  }
+  .hero-one {
+    grid-column: 1 / -1;
+  }
+  .hero-two {
+    margin-top: 2em;
+    grid-column: 1 / -1;
+    order: 1;
+  }
+  .hero-three {
+    margin-top: 1em;
+    grid-column: 1 / -1;
+  }
+  .section-title {
+    font-family: 'work sans', sans-serif;
+    font-size: 2.8125em;
+    line-height: 0.75em;
+    margin-top: 3em;
+    margin-bottom: 0em;
+  }
+
+  /* adjusted case study to vertical orientation */
+
+  .work-description {
+    grid-column: 1 / -1;
+  }
+  .workcover-container {
+    grid-column: 1 / -1;
+  }
+
+  /* adjusted case study to vertical orientation */
+
+
+  .pastwork-title {
+    display: none;
+  }
+  .pastwork-heading {
+    font-size: 1.25em;
+  }
+  .pwArch,
+  .pwFloristry,
+  .pwFurn {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    margin-bottom: 4em;
+  }
+  .pastwork-description,
+  .pastworkcover-container {
+    width: 50%;
+  }
+  .pastwork-description {
+    margin-right: 1em;
+  }
+  footer li {
+    display: block;
+  }
+}
+
+/*purplezone*/
+@media only screen and (min-width: 280px) and (max-width: 479px) {
+
+  .casestudy-scope {
+    font-size: 0.8em;
+  }
+
+  .section-work {   /* Controls spacing above first casestudy*/
+    margin-top: 9em;
+  }
+  main {
+    margin: 0em 1.5em;
+  }
+  .menu a {
+    font-weight: 500;
+  }
+  header {
+    margin-top: 2em;
+  }
+  nav {   /* Modified from 450-574px */
+    margin-top: 1.5em;
+    width: 14em;
+  }
+  .nav-main {   /* Modified from 450-574px */
+    line-height: 1.5em;
+  }
+  .menu a {   /* Modified from 450-574px */
+    font-size: 0.75em;
+  }
+  .ralogo {
+    background: url(../assets/homepage/ralogo24.svg) center / cover;
+    height: 36px;
+    width: 57px;
+    /* background: url(../assets/homepage/ralogo24.svg) center / cover;
+    height: 24px;
+    width: 38px; */
+  }
+
+  .hero-image {    /* Modified from 450-574px */
+    margin-top: 1em;
+  }
+  .hero-one h3,
+  .hero-three h4 {     /* Modified from 450-574px */
+    font-family: 'spectral', serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 0em;
+  }
+  /* .hero-three h4, {
+  font-family: 'spectral', serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: 1.5em;
+  margin-bottom: 0em;
+  } */
+  .work-description h3{
+    font-family: 'spectral', serif;
+    font-size: 1.4375em;
+    line-height: 1.5em;
+    margin-top: 1.04347826em;
+    margin-bottom: 0em;
+  }
+  .hero-two p {
+    font-size: 0.75em;
+  }
+  .hero-one {
+    grid-column: 1 / -1;
+  }
+  .hero-two {
+    margin-top: 2em;
+    grid-column: 1 / -1;
+    order: 1;
+  }
+  .hero-three {
+    margin-top: 1em;
+    grid-column: 1 / -1;
+  }
+  .section-title {
+    font-family: 'work sans', sans-serif;
+    font-size: 2.8125em;
+    line-height: 0.75em;
+    margin-top: 3em;
+    margin-bottom: 0em;
+  }
+
+  /* adjusted case study to vertical orientation */
+
+  .work-description {
+    grid-column: 1 / -1;
+    margin-bottom: 2em;
+  }
+  .workcover-container {
+    grid-column: 1 / -1;
+  }
+
+  /* adjusted case study to vertical orientation */
+  .worklink {
+    display: none;
+  }
+  .pastwork-title {
+    display: none;
+  }
+  .pastwork-heading {
+    font-size: 1.25em;
+  }
+  .pwArch,
+  .pwFloristry,
+  .pwFurn {
+    grid-column: 1 / -1;
+    flex-direction: column;
+    margin-bottom: 6em;
+  }
+  .pastwork-description {
+    margin-bottom: 2em;
+  }
+  .email {
+    font-size: 1.3em;
+  }
+
+}

@@ -1,0 +1,562 @@
+/*-------------------Start of styling identical to master.css----------------------------*/
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, .root {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+body {
+  font-family: 'spectral', serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #333333;
+}
+
+.container {
+  margin: auto;
+  max-width: 1280px;
+}
+
+main {
+  margin: 0em 4.5em;
+}
+
+/* Start of typography sizes */
+
+h1 {
+  font-family: 'work sans', sans-serif;
+  font-size: 4em;
+  font-weight: 500;
+  font-kerning: auto;
+  line-height: 1.06666667em;
+  margin-top: 0.53333333em;
+  margin-bottom: 1.06666666em;
+  color: #333333;
+}
+
+h2 {
+  font-family: 'work sans', sans-serif;
+  font-size: 2.8125em;
+  line-height: 1.06666667em;
+  margin-top: 0.53333333em;
+  margin-bottom: 1.06666666em;
+}
+
+h3 {
+  font-family: 'spectral', serif;
+  font-size: 2em;
+  line-height: 1.5em;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+h4 {
+  \font-family: 'spectral', serif;
+  font-size: 1.4375em;
+  line-height: 1.5em;
+  margin-top: 1.04347826em;
+  margin-bottom: 0em;
+}
+
+
+h5 {
+  font-family: 'work sans', sans-serif;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  margin-top: 1.04347826em;
+  margin-bottom: 0em;
+}
+
+p {
+  font-family: 'spectral', serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: 1.5em;
+  margin-bottom: 0em;
+}
+
+/* End of typography sizes */
+
+
+.worklink {
+  display: inline-block;
+  margin: 1.5em 0em;
+  color: #333333;
+  font-size: 1em;
+  font-family: 'work sans', sans-serif;
+  text-decoration: none;
+  line-height: 1.5em;
+  border-bottom: 1px solid #C5C5C5;
+}
+
+.worklink:hover {
+  border-bottom: 1px solid #DA9218;
+}
+
+/*-------------------End of styling identical to master.css----------------------------*/
+
+
+
+
+
+/*------- Start of logo and nav styling -------*/
+
+header {
+  margin-top: 4.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.ralogo {
+  background: url(../assets/homepage/ralogo48.svg) center / cover;
+  height: 48px;
+  width: 76px;
+}
+
+.nav-main {
+  margin: 1.5em;
+  width: 240px;
+}
+
+.menu {
+  border-bottom: 1px solid #E6E6E6;
+  line-height: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a {
+  /* border: 1px solid red; */
+  padding-bottom: 0.45em;
+  text-decoration: none;
+  color: #333333;
+  font-size: 0.75em;
+  font-weight: 500;
+  font-family: 'work sans', sans-serif;
+}
+
+.menu a:hover {
+  border-bottom: 1px solid #DA9218;
+  margin-bottom: 1em;
+}
+
+/*------- End of logo and nav styling -------*/
+
+
+
+
+/*------- Start of hero styling -------*/
+.hero-content {
+  /* border: 1px solid grey; */
+  background-color: #FAFAFA;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 0.5%;
+  margin-top: 4em;
+}
+
+.hero-left {
+  /* border: 1px solid grey; */
+  grid-column: 1 / 7;
+}
+
+.hero-right {
+  /* border: 1px solid grey; */
+  grid-column: 7 / -1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-big {
+  display: block;
+  width: 100%;
+}
+
+.hero-small {
+  width: 100%;
+}
+/*------- End of hero styling -------*/
+
+
+
+
+
+
+/*------- Start of about container styling -------*/
+
+
+.about {
+  margin-bottom: 9em;
+}
+
+.section-title {
+  margin: auto;
+  margin-top: 2em;
+  text-align: center;
+}
+
+.page-separator {
+  margin: auto;
+  width: 5em;
+  height: 1px;
+  background-color: #DA9218;
+  margin-top: 3em;
+}
+
+.section-separator {
+  margin: auto;
+  width: 60%;
+  height: 1px;
+  background-color: #C5C5C5;
+  margin-top: 6em;
+  margin-bottom: 4em;
+}
+
+.centered-title {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+.about h3.
+.about h4 {
+  padding-top: 2em;
+}
+
+.about p {
+  margin-bottom: 2em;
+}
+.about h3,
+.about h4,
+.about p,
+.about .worklink {
+  max-width: 60%;
+  margin-left: 20%;
+}
+
+.pullquotes {
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+}
+
+.pullquotes span {}
+
+.about-links {
+  text-decoration: none;
+  font-family: 'work sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  color: #777777;
+  border-bottom: 1px solid #C9C9C9;
+  margin: 0em 0.25em;
+}
+
+.about-links:hover {
+  color: #333333;
+  border-bottom: 1px solid #DA9218;
+}
+
+.img-fullwidth {
+  width: 100%;
+  display: block;
+  margin: 4em 0em;
+}
+
+.img-contain1 {
+  display: flex;
+  flex-direction: row;    /*adjust to 'column' for vertical layout*/
+  justify-content: center;
+  align-items: center;
+  margin: 4em 0em;
+}
+
+.img-incontain1 {
+  width: 60%;
+}
+
+
+/* .img-contain4 {
+padding-left: 1.5%;
+margin: 4em 0em;
+}
+
+.img-incontain4 {
+margin: auto;
+width: 49%;
+display: inline;
+}
+
+.img-contain2 {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin: 4em 0em;
+}
+
+.img-incontain2 {
+margin: auto;
+width: 49%;
+display: inline;
+} */
+
+/*------- End of about container styling -------*/
+
+/* ------Start of Footer Styling------ */
+
+.footer-container {
+  background-color: #F4F4F4;
+}
+
+footer {
+  /* border: 1px solid black; */
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0em 4em;
+}
+
+.footer-separator {
+  margin: auto;
+  width: 16em;
+  height: 1px;
+  background-color: #DA9218;
+  margin-top: 0.75em;  /*Controls distance to section-title*/
+}
+
+.email {
+  padding-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.contactlinks {
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+  border-bottom: 1px solid #DA9218;
+}
+
+.contact-link a {
+  color: #777777;
+  font-family: 'work sans', sans-serif;
+  font-size: 0.85em;
+  font-weight:500;
+  text-decoration: none;
+  padding-bottom: 0.25em;
+}
+
+.contact-link a:hover {
+  color: #333333;
+}
+
+.credit {
+  text-align: center;
+  color: #333333;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-bottom: 3em;
+}
+/* ------End of Footer Styling------ */
+
+
+
+
+/* bluezone */
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+
+  /* .container {
+  border: 1px solid blue;
+  } */
+
+  main {
+    margin: 0em 3em;
+  }
+  header {
+    /* border: 1px solid red; */
+    margin-top: 3em;
+  }
+  /* .ralogo {
+    background: url(../assets/homepage/ralogo36.svg) center / cover;
+    height: 36px;
+    width: 57px;
+  } */
+  .hero-content {
+    margin: 3em 0em;
+  }
+}
+
+/* redzone */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* .container {
+  border: 1px solid red;
+  } */
+  main {
+    margin: 0em 3em;
+  }
+  .menu a {
+    font-weight: 500;
+  }
+  header {
+    /* border: 1px solid red; */
+    margin-top: 3em;
+  }
+  nav {
+    margin-top: 1.5em;
+  }
+  .ralogo {
+    background: url(../assets/homepage/ralogo36.svg) center / cover;
+    height: 36px;
+    width: 57px;
+  }
+  .hero-content {
+    margin-top: 3em;
+  }
+  .about h3,
+  .about h4,
+  .about p,
+  .about .worklink {
+    max-width: 70%;
+    margin-left: 15%;
+  }
+  .section-separator {
+    width: 70%;
+    margin-top: 6em;
+    margin-bottom: 4em;
+  }
+  .img-incontain1 {
+    width: 70%;
+  }
+}
+
+/* greenzone */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+  /* .container {
+  border: 1px solid green;
+  } */
+  main {
+    margin: 0em 1.5em;
+  }
+  .menu a {
+    font-weight: 500;
+  }
+  header {
+    /* border: 1px solid red; */
+    margin-top: 3em;
+  }
+  nav {
+    margin-top: 1.5em;
+  }
+  .ralogo {
+    background: url(../assets/homepage/ralogo24.svg) center / cover;
+    height: 36px;
+    width: 57px;
+  }
+  .hero-content {
+    margin: 2em 0em;
+  }
+  .about h3,
+  .about h4,
+  .about p,
+  .about .worklink {
+    max-width: 90%;   /*Controls margins*/
+    margin-left: 5%;
+  }
+  .section-separator {
+    width: 90%;
+    margin-top: 6em;
+    margin-bottom: 4em;
+  }
+  .img-incontain1 {
+    width: 90%;
+  }
+  .centered-title {
+    margin-top: 1em;
+  }
+}
+
+/* purplezone */
+@media only screen and (min-width: 280px) and (max-width: 479px) {
+  /* .container {
+  border: 1px solid purple;
+  } */
+  main {
+    margin: 0em 1.5em;
+  }
+  .menu a {
+    font-weight: 500;
+  }
+  header {
+    margin-top: 2em;
+  }
+  nav {   /* Modified from 450-574px */
+    margin-top: 1.5em;
+    width: 14em;
+  }
+  .nav-main {   /* Modified from 450-574px */
+    line-height: 1.5em;
+  }
+  .menu a {   /* Modified from 450-574px */
+    font-size: 0.75em;
+  }
+  .ralogo {
+    background: url(../assets/homepage/ralogo24.svg) center / cover;
+    height: 36px;
+    width: 57px;
+    /* background: url(../assets/homepage/ralogo24.svg) center / cover;
+    height: 24px;
+    width: 38px; */
+  }
+
+  .hero-content {    /* Modified from 450-574px */
+    margin-top: 1em;
+  }
+
+  .about h3,
+  .about h4,
+  .about p,
+  .about .worklink {
+    max-width: 90%;   /*Controls margins*/
+    margin-left: 5%;
+  }
+  .section-separator {
+    width: 90%;
+    margin-top: 6em;
+    margin-bottom: 4em;
+  }
+  .about h3 {
+    font-family: 'spectral', serif;
+    font-size: 1.4375em;
+    line-height: 1.5em;
+    margin-top: 1.04347826em;
+    margin-bottom: 0em;
+  }
+  .about h4 {
+    font-family: 'spectral', serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 0em;
+  }
+  .about h2 {
+    font-size: 2em;
+  }
+  .img-incontain1 {
+    width: 90%;
+  }
+  .centered-title {
+    margin-top: 1em;
+  }
+}
