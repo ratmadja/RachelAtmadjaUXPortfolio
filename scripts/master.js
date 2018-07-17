@@ -1,4 +1,11 @@
-// Start of Syntax to make an entire div clickable
+
+
+
+
+
+// Notes
+
+// Syntax to make an entire div clickable
 
 // $(".work-NimbusDashCover").click (function () {
 //   window.location = $(this).find("a").attr("href");
