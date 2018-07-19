@@ -139,6 +139,21 @@ nav {
 }
 
 
+
+/*----Start of Sticky Navbar class-----*/
+.sticky {
+  background-color: #FFFFFF;
+  position: fixed;
+  width: 100%;
+  margin: auto;
+  top: 0;
+  left: 0;
+  padding: 0 4.5em;   /*Match 'main' margin*/
+}
+/*----End of Sticky Navbar class-----*/
+
+
+
 .nav-home, .nav-nextcs {
   font-family: 'work sans', sans-serif;
   font-size: 0.75em;
@@ -362,11 +377,16 @@ footer {
 
 /* redzone */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+
   /* .container {
   border: 1px solid red;
   } */
+
   main {
     margin: 0em 3em;
+  }
+  .sticky {
+    padding: 0 3em;  /*Match 'main' margin*/
   }
   .hero-content {
     margin-top: 3em;
@@ -404,11 +424,16 @@ footer {
 
 /* greenzone */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+
   /* .container {
   border: 1px solid green;
   } */
+
   main {
     margin: 0em 1.5em;
+  }
+  .sticky {
+    padding: 0em 1.5em;   /*Match 'main' margin*/
   }
   .hero-content {
     margin-top: 1.5em;
@@ -481,11 +506,16 @@ footer {
 
 /* purplezone */
 @media only screen and (min-width: 280px) and (max-width: 479px) {
+
   /* .container {
   border: 1px solid purple;
   } */
+
   main {
     margin: 0em 1em;
+  }
+  .sticky {
+    padding: 0em 1em;  /*Match 'main' margin*/
   }
   .hero-content {
     margin-top: 1em;
