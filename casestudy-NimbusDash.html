@@ -27,7 +27,7 @@
           </div>
           <img class="hero-image" src="assets/csNimbusDash/1x/heroNimbusDash.png"/>
         </div>
-        <nav>
+        <nav class="sticky" >
           <a class="nav-home" href="index.html"><i class="fas fa-caret-left"></i> HOME</a>
           <ul class="nav-cs">
             <li><a href="#section1">Context</a></li>
@@ -80,7 +80,7 @@
           </div>
         </div>
         <!-- section1 -->
-        <h2 class="section-title">CONTEXT</h2>
+        <h2 id="section1" class="section-title">CONTEXT</h2>
         <div class="page-separator"></div>
         <h3>The Problem</h3>
         <p>The creative process is iterative in nature, it thrives on an efficient feedback system as well as an effective organization method that enhance rather than hinder the creative workflow. Currently, the creative community is hard-pressed to find a cloud collaboration platform that combines robust commenting features with advanced file organization capabilities.</p>
@@ -89,7 +89,7 @@
         <p>Nimbus is a cloud collaboration platform designed with the creative process in mind. It combines advanced commenting features with flexible file organization capabilities that can handle the non-linear nature of the design process and enhances the feedback loop.</p>
         <a class="worklink" href="https://projects.invisionapp.com/share/3EGQ7ZY2UQB#/screens">VIEW THE INVISION PROTOTYPE</a>
         <!-- section2 -->
-        <h2 class="section-title">DESIGN</h2>
+        <h2 id="section2" class="section-title">DESIGN</h2>
         <div class="page-separator"></div>
         <h3>Dashboard Layout Diagram</h3>
         <p>After scrutinizing the layout and navigation structure of several cloud platforms and validating design decisions after several rounds of user-testing, a clean dashboard design with a top horizontal toolbar and a right-aligned support pane prove to be the most effective.</p>
@@ -101,7 +101,7 @@
         <p>Nimbus offers users the ability to track and view their comment thread history and @mention collaborators. Users can choose between commenting on specific document locations, or starting general conversations that apply to the entire document.</p>
         <img class="img-fullwidth" src="assets/csNimbusDash/1x/DashOrganize.png" />
         <h3>Nimbus Mobile</h3>
-        <p>The Nimbus mobile app is designed to give users the same powerful organization and collaboration features that the Nimbus desktop counterpart offers. The concept of the responsive toolbar translates into a responsive set of tab bars. When loading the app, the tab bars display frequently-accessed locations —thereby flattening the app structure. Upon user’s selection, the tab bars shifts to display frequently-performed actions such as ‘tag’ and ‘move’.</p>
+        <p>The Nimbus mobile app is designed to give users the same powerful organization and collaboration features that the Nimbus desktop counterpart offers. The concept of the responsive toolbar translates into a responsive set of tab bars. When loading the app, the tab bars display frequently-accessed locations—thereby flattening the app structure. Upon user’s selection, the tab bars shifts to display frequently-performed actions such as ‘tag’ and ‘move’.</p>
         <div class="img-contain4">
           <img class="img-incontain4" src="assets/csNimbusDash/1x/AppDiagram1.png"/>
           <img class="img-incontain4" src="assets/csNimbusDash/1x/AppDiagram2.png"/>
@@ -109,7 +109,7 @@
           <img class="img-incontain4" src="assets/csNimbusDash/1x/AppDiagram4.png"/>
         </div>
         <!-- section3 -->
-        <h2 class="section-title">PROCESS</h2>
+        <h2 id="section3" class="section-title">PROCESS</h2>
         <div class="page-separator"></div>
         <h3>User Research</h3>
         <p>A survey was deployed to quantify user's preferences of features for a cloud collaboration platform. I also conducted a competitive analysis between four leading platforms and identified a growing trend towards more advanced commenting features that allow users to track conversation histories in their shared documents. Survey results also revealed that users are looking for more ways to organize their files to enhance their workflow.</p>
@@ -159,7 +159,7 @@
         </div>
         <p>Consistent with the gestalt principle of proximity, it is best to put icons and functions on the same location as the pane or section of the dashboard that it affects.</p>
         <!-- section4 -->
-        <h2 class="section-title">CONCLUSION</h2>
+        <h2 id="section4" class="section-title">CONCLUSION</h2>
         <div class="page-separator"></div>
         <h4>I learned the most during wireframe iterations.</h4>
         <p>During user-testing, I learned the hard way that icons mean different things to different people, that labeling a button by text clarifies it that much more for the user. I also learned the studying the dashboard platforms that most users are accustomed to is a great starting point, often times we never reinvent the wheel, we just adjust the pattern if it brings value to the user’s workflow. </p>
@@ -181,5 +181,9 @@
     </footer>
   </div>
   <!-- End of footer code -->
+  <!-- Scripts  -->
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/buzz/1.1.10/buzz.min.js"></script>
+  <script src="scripts/master.js"></script>
 </body>
 </html>

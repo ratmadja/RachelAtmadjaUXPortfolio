@@ -437,7 +437,7 @@ footer {
     margin-top: 3em;
     margin-bottom: 0em;
   } */
-  
+
   /*--aligns pastwork links--*/
   .pastwork-descandlink {
     height: 200px;
@@ -615,7 +615,9 @@ footer {
 
   /* adjusted case study to vertical orientation */
 
-
+  .section-pastwork {
+    margin-bottom: 2em;
+  }
   .pastwork-title {
     display: none;
   }
@@ -738,8 +740,12 @@ footer {
   }
 
   /* adjusted case study to vertical orientation */
+
   .worklink {
     display: none;
+  }
+  .section-pastwork {
+    margin-bottom: 2em;
   }
   .pastwork-title {
     display: none;
