@@ -20,14 +20,14 @@ function onReady() {
   });
 
 
-  
+
   //JQuery for stickyTopNav
 
-  const stickyTopNav = $('#navmenu').offset().top;
+  const stickyTopNav = $('.navmenu').offset().top;
 
   let stickyNav = function() {
     const scrollTop = $(window).scrollTop();
-    $('#navmenu').toggleClass(
+    $('.navmenu').toggleClass(
       'sticky',
       scrollTop > stickyTopNav
     );
