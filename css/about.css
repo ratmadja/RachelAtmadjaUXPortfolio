@@ -158,20 +158,20 @@ header {
   background-color: #FAFAFA;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-gap: 0.5%;
+  grid-gap: 0.25%;
   margin-top: 4em;
 }
 
 .hero-left {
   /* border: 1px solid grey; */
   grid-column: 1 / 7;
-  padding-right: 0.5%;
+  padding-right: 0.2%;
 }
 
 .hero-right {
   /* border: 1px solid grey; */
   grid-column: 7 / -1;
-  padding-left: 0.5%;
+  padding-left: 0.2%;
 
   display: flex;
   flex-direction: column;
