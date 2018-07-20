@@ -121,13 +121,13 @@ p {
 .hero-halfwidth-left {
   /* border: 1px solid grey; */
   grid-column: 1 / 7;
-  padding-right: 0.1%;
+  padding-right: 0.5%;
 }
 
 .hero-halfwidth-right {
   /* border: 1px solid grey; */
   grid-column: 7 / -1;
-  padding-left: 0.1%;
+  padding-left: 0.5%;
 
   display: flex;
   flex-direction: column;
@@ -142,22 +142,22 @@ p {
 
 .hero-twothirdswidth-left {
   grid-column: 1 / 9;
-  padding-right: 0.1%;
+  padding-right: 0.5%;
 }
 
 .hero-twothirdswidth-right {
   grid-column: 5 / -1;
-  padding-left: 0.1%;
+  padding-left: 0.5%;
 }
 
 .hero-onethirdwidth-right {
   grid-column: 9 / -1;
-  padding-left: 0.1%;
+  padding-left: 0.5%;
 }
 
 .hero-onethirdwidth-left {
   grid-column: 1 / 5;
-  padding-right: 0.1%;
+  padding-right: 0.5%;
 }
 
 .img-contain3 {
