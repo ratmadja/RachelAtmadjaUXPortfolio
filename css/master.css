@@ -104,9 +104,9 @@ header {
 
 
 .ralogo {
-  background: url(../assets/homepage/ralogo48.svg) center / cover;
-  height: 48px;
-  width: 76px;
+  background: url(../assets/homepage/ralogo36.svg) center / cover;
+  height: 36px;
+  width: 57px;
 }
 
 .nav-main {
@@ -153,30 +153,32 @@ header {
 }
 
 .hero-one {
-  grid-column: 1 / -1;
+  grid-column: 2 / -2;
   height: auto;
 }
-
 .hero-two {
-  grid-column: 1 / 4;
-  margin-top: 2em;
-}
+  grid-column: 5 / -5;
 
-.hero-two h5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.hero-info h5 {
+  border-top: 1px solid #E6E6E6;
   font-weight: 400;
   color: #919191;
 }
-
-.hero-two p {
+.hero-info {
+  width: 135px;
+}
+.hero-info p {
   font-family: 'Fira Mono', monospace;
   font-size: 0.8em;
   margin-top: 0.25em;
 }
 
-.hero-three {
-  grid-column: 4 / -1;
-  margin-top: 1em;
-}
+
 
 /*------- End of hero styling -------*/
 
@@ -407,13 +409,6 @@ footer {
     /* border: 1px solid #c3c3c3; */
     margin: 3em 0em;
   }
-  /* .hero-one h3{
-    font-family: 'spectral', serif;
-    font-size: 1.4375em;
-    line-height: 1.5em;
-    margin-top: 1.04347826em;
-    margin-bottom: 0em;
-  } */
   .work-description h3{
     font-family: 'spectral', serif;
     font-size: 1.4375em;
@@ -421,22 +416,12 @@ footer {
     margin-top: 1.04347826em;
     margin-bottom: 0em;
   }
-  .hero-two p {
+  .hero-info p {
     font-size: 0.75em;
   }
-  .hero-two {
+  .hero-info {
     margin-top: 2em;
   }
-  .hero-three {
-    margin-top: 1em;
-  }
-  /* .section-title {
-    font-family: 'work sans', sans-serif;
-    font-size: 2.8125em;
-    line-height: 0.75em;
-    margin-top: 3em;
-    margin-bottom: 0em;
-  } */
 
   /*--aligns pastwork links--*/
   .pastwork-descandlink {
@@ -455,6 +440,10 @@ footer {
 
 /*redzone*/
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+  /* .container {
+    border: 1px solid red;
+  } */
 
   .casestudy-scope {
     font-size: 0.8em;
@@ -480,12 +469,23 @@ footer {
   .hero-image {
     margin: 1em 0em;
   }
-  .hero-one h3{
+  .hero-one h3 {
     font-family: 'spectral', serif;
     font-size: 1.4375em;
     line-height: 1.5em;
     margin-top: 1.04347826em;
     margin-bottom: 0em;
+  }
+  .hero-two {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 2em;
+  }
+  .hero-info h5 {
+    border-top: none;
   }
   .work-description h3{
     font-family: 'spectral', serif;
@@ -494,19 +494,10 @@ footer {
     margin-top: 1.04347826em;
     margin-bottom: 0em;
   }
-  .hero-two p {
+  .hero-info p {
     font-size: 0.8em;
   }
   .hero-one {
-    grid-column: 1 / -1;
-  }
-  .hero-two {
-    margin-top: 2em;
-    grid-column: 1 / -1;
-    order: 1;
-  }
-  .hero-three {
-    margin-top: 1em;
     grid-column: 1 / -1;
   }
   .section-title {
@@ -566,13 +557,15 @@ footer {
   .hero-image {
     margin: 1em 0em;
   }
-  .hero-one h3,
-  .hero-three h4 {
+  .hero-one h3 {
     font-family: 'spectral', serif;
     font-size: 1.2em;
     line-height: 1.5em;
     margin-top: 1.04347826em;
     margin-bottom: 0em;
+  }
+  .hero-info h5 {
+    border-top: none;
   }
   .work-description h3{
     font-family: 'spectral', serif;
@@ -581,20 +574,19 @@ footer {
     margin-top: 1.04347826em;
     margin-bottom: 0em;
   }
-  .hero-two p {
+  .hero-info p {
     font-size: 0.75em;
   }
   .hero-one {
     grid-column: 1 / -1;
   }
   .hero-two {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
     margin-top: 2em;
-    grid-column: 1 / -1;
-    order: 1;
-  }
-  .hero-three {
-    margin-top: 1em;
-    grid-column: 1 / -1;
   }
   .section-title {
     font-family: 'work sans', sans-serif;
@@ -684,21 +676,16 @@ footer {
   .hero-image {    /* Modified from 450-574px */
     margin-top: 1em;
   }
-  .hero-one h3,
-  .hero-three h4 {     /* Modified from 450-574px */
+  .hero-one h3 {     /* Modified from 450-574px */
     font-family: 'spectral', serif;
     font-size: 1em;
     line-height: 1.5em;
     margin-top: 1em;
     margin-bottom: 0em;
   }
-  /* .hero-three h4, {
-  font-family: 'spectral', serif;
-  font-size: 1em;
-  line-height: 1.5em;
-  margin-top: 1.5em;
-  margin-bottom: 0em;
-  } */
+  .hero-info h5 {
+    border-top: none;
+  }
   .work-description h3{
     font-family: 'spectral', serif;
     font-size: 1.4375em;
@@ -706,20 +693,19 @@ footer {
     margin-top: 1.04347826em;
     margin-bottom: 0em;
   }
-  .hero-two p {
+  .hero-info p {
     font-size: 0.75em;
   }
   .hero-one {
     grid-column: 1 / -1;
   }
   .hero-two {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
     margin-top: 2em;
-    grid-column: 1 / -1;
-    order: 1;
-  }
-  .hero-three {
-    margin-top: 1em;
-    grid-column: 1 / -1;
   }
   .section-title {
     font-family: 'work sans', sans-serif;
