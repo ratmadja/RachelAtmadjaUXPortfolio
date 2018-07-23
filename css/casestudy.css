@@ -110,17 +110,16 @@ p {
   justify-content: center;
   align-items: center;
 }
-
-
-.hero-headline h3,
-.hero-headline p {
-  text-align: center;
+.cs-logo {
+  background: url(../assets/csNimbusDash/1x/NimbusLogo60.png) no-repeat center / contain;
+  height: 60px;
+  width: 300px;
+  margin-top: 3em;
 }
-
-.hero-headline p {
+.hero-headline h4 {
+  text-align: center;
   color: #5E5E5E;
 }
-
 .hero-image {
   display: block;
   width: 70%;
@@ -419,11 +418,16 @@ footer {
   .hero-content {
     margin-top: 3em;
   }
-  .hero-headline h3 {
+  .cs-logo {
+    background: url(../assets/csNimbusDash/1x/NimbusLogo48.png) no-repeat center / contain;
+    height: 48px;
+    width: 300px;
+  }
+  .hero-headline h4 {
     font-family: 'spectral', serif;
-    font-size: 1.4375em;
+    font-size: 1.2em;
     line-height: 1.5em;
-    margin-top: 1.04347826em;
+    margin-top: 1.5em;
     margin-bottom: 0em;
   }
   .hero-headline {
@@ -465,15 +469,24 @@ footer {
   .hero-content {
     margin-top: 1.5em;
   }
-  .hero-headline h3,
-  .hero-headline p {
-    display: none;
+  .cs-logo {
+    background: url(../assets/csNimbusDash/1x/NimbusLogo36.png) no-repeat center / contain;
+    height: 36px;
+    width: 300px;
+    margin-top: 2em;
+  }
+  .hero-headline h4 {
+    font-family: 'spectral', serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 0em;
   }
   .hero-headline {
-    width: 80%;
+    width: 60%;
   }
   .hero-image {
-    margin-top: 3em;
+    margin-top: 1em;
   }
   nav {
     height: 3em;
@@ -551,15 +564,24 @@ footer {
   .hero-content {
     margin-top: 1em;
   }
-  .hero-headline h3,
-  .hero-headline p {
-    display: none;
+  .cs-logo {
+    background: url(../assets/csNimbusDash/1x/NimbusLogo36.png) no-repeat center / contain;
+    height: 36px;
+    width: 300px;
+    margin-top: 2em;
+  }
+  .hero-headline h4 {
+    font-family: 'spectral', serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 0em;
   }
   .hero-headline {
-    width: 80%;
+    width: 60%;
   }
   .hero-image {
-    margin-top: 3em;
+    margin-top: 1em;
   }
   nav {
     height: 3em;

@@ -23,9 +23,9 @@
     <main>
       <header>
         <div class="hero-content">
+          <div class="cs-logo"></div>
           <div class="hero-headline">
-            <h3>A collaboration platform for the creative process</h3>
-            <p>Organization flexibility meets conversation tracking to handle a non-linear feedback loop</p>
+            <h4>A collaboration platform for the creative process</h4>
           </div>
           <img class="hero-image" src="assets/csNimbusDash/1x/heroNimbusDash.png"/>
         </div>
@@ -33,8 +33,8 @@
           <a class="nav-home" href="index.html"><i class="fas fa-caret-left"></i> HOME</a>
           <ul class="nav-cs">
             <li><a href="#section1">Context</a></li>
-            <li><a href="#section2">Design</a></li>
-            <li><a href="#section3">Process</a></li>
+            <li><a href="#section2">Process</a></li>
+            <li><a href="#section3">Design</a></li>
             <li><a href="#section4">Conclusion</a></li>
           </ul>
           <a class="nav-nextcs" href="casestudy-NimbusLanding.html">NEXT CASE <i class="fas fa-caret-right"></i></a>
@@ -90,67 +90,9 @@
         <h3>The Solution</h3>
         <p>Nimbus is a cloud collaboration platform designed with the creative process in mind. It combines advanced commenting features with flexible file organization capabilities that can handle the non-linear nature of the design process and enhances the feedback loop.</p>
         <a class="worklink" href="https://projects.invisionapp.com/share/3EGQ7ZY2UQB#/screens">VIEW THE INVISION PROTOTYPE</a>
+
         <!-- section2 -->
-        <h2 id="section2" class="section-title">DESIGN</h2>
-        <div class="page-separator"></div>
-        <h3>Dashboard Components</h3>
-        <p>After scrutinizing the layout and navigation structure of several cloud platforms and validating design decisions after several rounds of user-testing, a clean dashboard design with a top horizontal toolbar and a right-aligned support pane prove to be the most effective.</p>
-
-        <!--start of dash desktop diagram-->
-        <div class="diagramWide">
-          <img class="img-dashdiagram" src="assets/csNimbusDash/1x/DashDiagram.png" />
-        </div>
-        <div class="diagramNarrow">
-          <h4>Primary Controls</h4>
-          <p>Breadcrumbing as a primary navigation tool is essential in a file organization software whose files can be buried several levels deep within folders. User tests reveal that the optimal location for file paths is at the top left portion of the screen.</p>
-          <img class="img-fullwidth" src="assets/csNimbusDash/1x/dashControls.png" />
-          <p>Anticipating the user’s next actions allow for a responsive rather than a static set of toolbars. If the user has not made any file selections, then they are likely to upload or create a new folder.</p>
-          <div class="img-contain1">
-            <img class="img-incontain1" src="assets/csNimbusDash/1x/dashToolbar1.png" />
-          </div>
-          <p>Once file selections have been made, the tab bar switches to a series of functions that the user is likely to want to do next.</p>
-          <div class="img-contain1">
-            <img class="img-incontain1" src="assets/csNimbusDash/1x/dashToolbar2.png" />
-          </div>
-          <h4>Location Pane and Primary Pane</h4>
-          <p>Frequently-visited locations are located along the left edge of the dashboard. Rather than placing a list of file locations on an adjacent sidebar and creating a visual separation (Dropbox and Google Drive took this approach), I opted to remove any visual separation from the screen section that will be affected once a user makes a location selection.</p>
-          <img class="img-fullwidth" src="assets/csNimbusDash/1x/dashPrimary.png" />
-          <h4>Support Pane</h4>
-          <p>This collapsible pane houses secondary functions that enhances but are not essential to the majority of user tasks. For instance, it displays the cloud file organization tree in ‘location mode’, and the comment summary in ‘comment mode.’</p>
-          <img class="img-fullwidth" src="assets/csNimbusDash/1x/dashSupport.png" />
-        </div>
-        <!--end of dash desktop diagram-->
-
-        <h4>Document Commenting Feature</h4>
-        <p>I conducted a competitive analysis between four leading platforms and identified a growing trend towards more advanced commenting features that allow users to track conversation histories in their shared documents. Users can choose between commenting on specific document locations, or starting general conversations that apply to the entire document. </p>
-        <img class="img-fullwidth" src="assets/csNimbusDash/1x/DashComment.png" />
-        <h3>Mobile App Components</h3>
-        <p>The Nimbus mobile app is designed to give users the same powerful organization and collaboration features that the Nimbus desktop counterpart offers.</p>
-        <p>The concept of the responsive toolbar translates into a responsive set of tab bars. When loading the app, the tab bars display frequently-accessed locations—thereby flattening the app structure.</p>
-
-        <!--start of dash mobile diagram-->
-        <div class="diagramMobileWide">
-          <div class="img-contain4">
-            <img class="img-incontain4" src="assets/csNimbusDash/1x/AppDiagram1.png"/>
-            <img class="img-incontain4" src="assets/csNimbusDash/1x/AppDiagram2.png"/>
-            <img class="img-incontain4" src="assets/csNimbusDash/1x/AppDiagram3.png"/>
-            <img class="img-incontain4" src="assets/csNimbusDash/1x/AppDiagram4.png"/>
-          </div>
-        </div>
-        <div class="diagramMobileNarrow">
-          <div class="img-contain4">
-            <img class="img-incontain4" src="assets/csNimbusDash/1x/app1.png"/>
-            <img class="img-incontain4" src="assets/csNimbusDash/1x/app2.png"/>
-            <p>Anticipating the user’s next actions allow for a responsive rather than a static tab bar. Once file selections have been made, the tab bar switches from location-based functions to action-based functions. </p>
-            <img class="img-incontain4" src="assets/csNimbusDash/1x/app3.png"/>
-            <img class="img-incontain4" src="assets/csNimbusDash/1x/app4.png"/>
-            <p>In comment-mode, the tab bar adapts to anticipate the user’s next actions after opening a file.</p>
-          </div>
-        </div>
-        <!--end of dash mobile diagram-->
-
-        <!-- section3 -->
-        <h2 id="section3" class="section-title">PROCESS</h2>
+        <h2 id="section2" class="section-title">PROCESS</h2>
         <div class="page-separator"></div>
         <h3>User Research</h3>
         <p>A survey was deployed to quantify user's preferences of features for a cloud collaboration platform. I also conducted a competitive analysis between four leading platforms and identified a growing trend towards more advanced commenting features that allow users to track conversation histories in their shared documents. Survey results also revealed that users are looking for more ways to organize their files to enhance their workflow.</p>
@@ -199,6 +141,63 @@
           <img class="img-incontain2" src="assets/csNimbusDash/1x/wf4b.png"/>
         </div>
         <p>Consistent with the gestalt principle of proximity, it is best to put icons and functions on the same location as the pane or section of the dashboard that it affects.</p>
+
+
+        <!-- section3 -->
+        <h2 id="section3" class="section-title">DESIGN</h2>
+        <div class="page-separator"></div>
+        <h3>Dashboard Components</h3>
+        <p>After scrutinizing the layout and navigation structure of several cloud platforms and validating design decisions after several rounds of user-testing, a clean dashboard design with a top horizontal toolbar and a right-aligned support pane prove to be the most effective.</p>
+        <!--start of dash desktop diagram-->
+        <div class="diagramWide">
+          <img class="img-dashdiagram" src="assets/csNimbusDash/1x/DashDiagram.png" />
+        </div>
+        <div class="diagramNarrow">
+          <h4>Primary Controls</h4>
+          <p>Breadcrumbing as a primary navigation tool is essential in a file organization software whose files can be buried several levels deep within folders. User tests reveal that the optimal location for file paths is at the top left portion of the screen.</p>
+          <img class="img-fullwidth" src="assets/csNimbusDash/1x/dashControls.png" />
+          <p>Anticipating the user’s next actions allow for a responsive rather than a static set of toolbars. If the user has not made any file selections, then they are likely to upload or create a new folder.</p>
+          <div class="img-contain1">
+            <img class="img-incontain1" src="assets/csNimbusDash/1x/dashToolbar1.png" />
+          </div>
+          <p>Once file selections have been made, the tab bar switches to a series of functions that the user is likely to want to do next.</p>
+          <div class="img-contain1">
+            <img class="img-incontain1" src="assets/csNimbusDash/1x/dashToolbar2.png" />
+          </div>
+          <h4>Location Pane and Primary Pane</h4>
+          <p>Frequently-visited locations are located along the left edge of the dashboard. Rather than placing a list of file locations on an adjacent sidebar and creating a visual separation (Dropbox and Google Drive took this approach), I opted to remove any visual separation from the screen section that will be affected once a user makes a location selection.</p>
+          <img class="img-fullwidth" src="assets/csNimbusDash/1x/dashPrimary.png" />
+          <h4>Support Pane</h4>
+          <p>This collapsible pane houses secondary functions that enhances but are not essential to the majority of user tasks. For instance, it displays the cloud file organization tree in ‘location mode’, and the comment summary in ‘comment mode.’</p>
+          <img class="img-fullwidth" src="assets/csNimbusDash/1x/dashSupport.png" />
+        </div>
+        <!--end of dash desktop diagram-->
+        <h4>Document Commenting Feature</h4>
+        <p>I conducted a competitive analysis between four leading platforms and identified a growing trend towards more advanced commenting features that allow users to track conversation histories in their shared documents. Users can choose between commenting on specific document locations, or starting general conversations that apply to the entire document. </p>
+        <img class="img-fullwidth" src="assets/csNimbusDash/1x/DashComment.png" />
+        <h3>Mobile App Components</h3>
+        <p>The Nimbus mobile app is designed to give users the same powerful organization and collaboration features that the Nimbus desktop counterpart offers.</p>
+        <p>The concept of the responsive toolbar translates into a responsive set of tab bars. When loading the app, the tab bars display frequently-accessed locations—thereby flattening the app structure.</p>
+        <!--start of dash mobile diagram-->
+        <div class="diagramMobileWide">
+          <div class="img-contain4">
+            <img class="img-incontain4" src="assets/csNimbusDash/1x/AppDiagram1.png"/>
+            <img class="img-incontain4" src="assets/csNimbusDash/1x/AppDiagram2.png"/>
+            <img class="img-incontain4" src="assets/csNimbusDash/1x/AppDiagram3.png"/>
+            <img class="img-incontain4" src="assets/csNimbusDash/1x/AppDiagram4.png"/>
+          </div>
+        </div>
+        <div class="diagramMobileNarrow">
+          <div class="img-contain4">
+            <img class="img-incontain4" src="assets/csNimbusDash/1x/app1.png"/>
+            <img class="img-incontain4" src="assets/csNimbusDash/1x/app2.png"/>
+            <p>Anticipating the user’s next actions allow for a responsive rather than a static tab bar. Once file selections have been made, the tab bar switches from location-based functions to action-based functions. </p>
+            <img class="img-incontain4" src="assets/csNimbusDash/1x/app3.png"/>
+            <img class="img-incontain4" src="assets/csNimbusDash/1x/app4.png"/>
+            <p>In comment-mode, the tab bar adapts to anticipate the user’s next actions after opening a file.</p>
+          </div>
+        </div>
+        <!--end of dash mobile diagram-->
         <!-- section4 -->
         <h2 id="section4" class="section-title">CONCLUSION</h2>
         <div class="page-separator"></div>
