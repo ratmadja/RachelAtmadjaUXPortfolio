@@ -266,6 +266,12 @@ nav {
   margin: 4em 0em;
 }
 
+.img-dashdiagram {
+  width: 100%;
+  display: block;
+  margin: 4em 0em;
+}
+
 .img-contain4 {
   padding-left: 1.5%;
   margin: 4em 0em;
@@ -370,9 +376,16 @@ footer {
 
 /* bluezone */
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
+
   /* .container {
   border: 1px solid blue;
   } */
+
+  .diagramNarrow,
+  .diagramMobileNarrow {
+    display: none;
+  }
+
 }
 
 /* redzone */
@@ -408,10 +421,9 @@ footer {
     max-width: 70%;
     margin-left: 15%;
   }
-  .img-incontain4 {
-    margin: auto;
-    width: 80%;
-    display: block;
+  .diagramWide,
+  .diagramMobileWide {
+    display: none;
   }
   .img-contain2 {
     flex-direction: column;    /*adjust to 'column' for vertical layout*/
@@ -486,6 +498,10 @@ footer {
   }
   .casestudy h2 {
     font-size: 2em;
+  }
+  .diagramWide,
+  .diagramMobileWide {
+    display: none;
   }
   .img-incontain4 {
     margin: auto;
@@ -573,13 +589,17 @@ footer {
   }
   .casestudy h4 {
     font-family: 'spectral', serif;
-    font-size: 1em;
+    font-size: 1.4375em;
     line-height: 1.5em;
-    margin-top: 1.5em;
+    margin-top: 1.04347826em;
     margin-bottom: 0em;
   }
   .casestudy h2 {
     font-size: 2em;
+  }
+  .diagramWide,
+  .diagramMobileWide {
+    display: none;
   }
   .img-incontain4 {
     margin: auto;

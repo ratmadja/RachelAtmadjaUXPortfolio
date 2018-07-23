@@ -4,6 +4,8 @@
   <meta charset="utf-8">
   <title>Rachel's UX Portfolio: Nimbus Dashboard</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="assets/homepage/ra-favicon.png">
   <!-- Reset.css -->
   <link rel="stylesheet" href="css/reset.css">
   <!-- master.css -->
@@ -91,23 +93,62 @@
         <!-- section2 -->
         <h2 id="section2" class="section-title">DESIGN</h2>
         <div class="page-separator"></div>
-        <h3>Dashboard Layout Diagram</h3>
+        <h3>Dashboard Components</h3>
         <p>After scrutinizing the layout and navigation structure of several cloud platforms and validating design decisions after several rounds of user-testing, a clean dashboard design with a top horizontal toolbar and a right-aligned support pane prove to be the most effective.</p>
-        <img class="img-fullwidth" src="assets/csNimbusDash/2x/DashDiagram.png" />
-        <h4>Commenting feature</h4>
-        <p>I conducted a competitive analysis between four leading platforms and identified a growing trend towards more advanced commenting features that allow users to track conversation histories in their shared documents. Nimbus offers users the ability to track and view their comment thread history and @mention collaborators. Users can choose between commenting on specific document locations, or starting general conversations that apply to the entire document. </p>
-        <img class="img-fullwidth" src="assets/csNimbusDash/1x/DashComment.png" />
-        <h4>Flexible organization</h4>
-        <p>Nimbus offers users the ability to track and view their comment thread history and @mention collaborators. Users can choose between commenting on specific document locations, or starting general conversations that apply to the entire document.</p>
-        <img class="img-fullwidth" src="assets/csNimbusDash/1x/DashOrganize.png" />
-        <h3>Nimbus Mobile</h3>
-        <p>The Nimbus mobile app is designed to give users the same powerful organization and collaboration features that the Nimbus desktop counterpart offers. The concept of the responsive toolbar translates into a responsive set of tab bars. When loading the app, the tab bars display frequently-accessed locations—thereby flattening the app structure. Upon user’s selection, the tab bars shifts to display frequently-performed actions such as ‘tag’ and ‘move’.</p>
-        <div class="img-contain4">
-          <img class="img-incontain4" src="assets/csNimbusDash/1x/AppDiagram1.png"/>
-          <img class="img-incontain4" src="assets/csNimbusDash/1x/AppDiagram2.png"/>
-          <img class="img-incontain4" src="assets/csNimbusDash/1x/AppDiagram3.png"/>
-          <img class="img-incontain4" src="assets/csNimbusDash/1x/AppDiagram4.png"/>
+
+        <!--start of dash desktop diagram-->
+        <div class="diagramWide">
+          <img class="img-dashdiagram" src="assets/csNimbusDash/1x/DashDiagram.png" />
         </div>
+        <div class="diagramNarrow">
+          <h4>Primary Controls</h4>
+          <p>Breadcrumbing as a primary navigation tool is essential in a file organization software whose files can be buried several levels deep within folders. User tests reveal that the optimal location for file paths is at the top left portion of the screen.</p>
+          <img class="img-fullwidth" src="assets/csNimbusDash/1x/dashControls.png" />
+          <p>Anticipating the user’s next actions allow for a responsive rather than a static set of toolbars. If the user has not made any file selections, then they are likely to upload or create a new folder.</p>
+          <div class="img-contain1">
+            <img class="img-incontain1" src="assets/csNimbusDash/1x/dashToolbar1.png" />
+          </div>
+          <p>Once file selections have been made, the tab bar switches to a series of functions that the user is likely to want to do next.</p>
+          <div class="img-contain1">
+            <img class="img-incontain1" src="assets/csNimbusDash/1x/dashToolbar2.png" />
+          </div>
+          <h4>Location Pane and Primary Pane</h4>
+          <p>Frequently-visited locations are located along the left edge of the dashboard. Rather than placing a list of file locations on an adjacent sidebar and creating a visual separation (Dropbox and Google Drive took this approach), I opted to remove any visual separation from the screen section that will be affected once a user makes a location selection.</p>
+          <img class="img-fullwidth" src="assets/csNimbusDash/1x/dashPrimary.png" />
+          <h4>Support Pane</h4>
+          <p>This collapsible pane houses secondary functions that enhances but are not essential to the majority of user tasks. For instance, it displays the cloud file organization tree in ‘location mode’, and the comment summary in ‘comment mode.’</p>
+          <img class="img-fullwidth" src="assets/csNimbusDash/1x/dashSupport.png" />
+        </div>
+        <!--end of dash desktop diagram-->
+
+        <h4>Document Commenting Feature</h4>
+        <p>I conducted a competitive analysis between four leading platforms and identified a growing trend towards more advanced commenting features that allow users to track conversation histories in their shared documents. Users can choose between commenting on specific document locations, or starting general conversations that apply to the entire document. </p>
+        <img class="img-fullwidth" src="assets/csNimbusDash/1x/DashComment.png" />
+        <h3>Mobile App Components</h3>
+        <p>The Nimbus mobile app is designed to give users the same powerful organization and collaboration features that the Nimbus desktop counterpart offers.</p>
+        <p>The concept of the responsive toolbar translates into a responsive set of tab bars. When loading the app, the tab bars display frequently-accessed locations—thereby flattening the app structure.</p>
+
+        <!--start of dash mobile diagram-->
+        <div class="diagramMobileWide">
+          <div class="img-contain4">
+            <img class="img-incontain4" src="assets/csNimbusDash/1x/AppDiagram1.png"/>
+            <img class="img-incontain4" src="assets/csNimbusDash/1x/AppDiagram2.png"/>
+            <img class="img-incontain4" src="assets/csNimbusDash/1x/AppDiagram3.png"/>
+            <img class="img-incontain4" src="assets/csNimbusDash/1x/AppDiagram4.png"/>
+          </div>
+        </div>
+        <div class="diagramMobileNarrow">
+          <div class="img-contain4">
+            <img class="img-incontain4" src="assets/csNimbusDash/1x/app1.png"/>
+            <img class="img-incontain4" src="assets/csNimbusDash/1x/app2.png"/>
+            <p>Anticipating the user’s next actions allow for a responsive rather than a static tab bar. Once file selections have been made, the tab bar switches from location-based functions to action-based functions. </p>
+            <img class="img-incontain4" src="assets/csNimbusDash/1x/app3.png"/>
+            <img class="img-incontain4" src="assets/csNimbusDash/1x/app4.png"/>
+            <p>In comment-mode, the tab bar adapts to anticipate the user’s next actions after opening a file.</p>
+          </div>
+        </div>
+        <!--end of dash mobile diagram-->
+
         <!-- section3 -->
         <h2 id="section3" class="section-title">PROCESS</h2>
         <div class="page-separator"></div>
