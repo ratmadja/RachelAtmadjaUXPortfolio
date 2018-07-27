@@ -418,6 +418,9 @@ footer {
   .hero-content {
     margin-top: 3em;
   }
+  .hero-image {
+    width: 80%;
+  }
   .cs-logo {
     background: url(../assets/csNimbusDash/1x/NimbusLogo48.png) no-repeat center / contain;
     height: 48px;
@@ -486,6 +489,7 @@ footer {
     width: 60%;
   }
   .hero-image {
+    width: 85%;
     margin-top: 1em;
   }
   nav {
@@ -581,6 +585,7 @@ footer {
     width: 60%;
   }
   .hero-image {
+    width: 100%;
     margin-top: 1em;
   }
   nav {

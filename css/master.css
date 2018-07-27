@@ -533,6 +533,10 @@ footer {
 /*greenzone*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
+  /* .container {
+    border: 1px solid green;
+  } */
+
   .casestudy-scope {
     font-size: 0.8em;
   }
