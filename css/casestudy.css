@@ -21,7 +21,7 @@ body {
 }
 
 main {
-  margin: 0em 4.5em;
+  margin: 0em 3em;
 }
 
 /* Start of typography sizes */
@@ -103,7 +103,7 @@ p {
 
 /*------- Start of hero content styling -------*/
 .hero-content {
-  margin-top: 4.5em;
+  margin-top: 3em;
   background-color: #FAFAFA;
   display: flex;
   flex-direction: column;
@@ -111,19 +111,20 @@ p {
   align-items: center;
 }
 .cs-logo {
+  margin: auto;
   background: url(../assets/csNimbusDash/1x/NimbusLogo60.png) no-repeat center / contain;
   height: 60px;
   width: 300px;
   margin-top: 3em;
 }
 .hero-headline h4 {
+  padding-top: 0.5em;
   text-align: center;
   color: #5E5E5E;
 }
 .hero-image {
   display: block;
-  width: 70%;
-  margin-top: 1em;
+  width: 65%;
 }
 /*------- End of hero content styling -------*/
 
@@ -155,7 +156,7 @@ nav {
 
 .nav-home, .nav-nextcs {
   font-family: 'work sans', sans-serif;
-  font-size: 0.75em;
+  font-size: 0.85em;
   text-decoration: none;
   color: #919191;
   width: 20%;
@@ -420,18 +421,12 @@ footer {
   }
   .hero-image {
     width: 80%;
+    margin-top: 0.25em;
   }
   .cs-logo {
     background: url(../assets/csNimbusDash/1x/NimbusLogo48.png) no-repeat center / contain;
     height: 48px;
     width: 300px;
-  }
-  .hero-headline h4 {
-    font-family: 'spectral', serif;
-    font-size: 1.2em;
-    line-height: 1.5em;
-    margin-top: 1.5em;
-    margin-bottom: 0em;
   }
   .hero-headline {
     width: 80%;
@@ -478,18 +473,11 @@ footer {
     width: 300px;
     margin-top: 2em;
   }
-  .hero-headline h4 {
-    font-family: 'spectral', serif;
-    font-size: 1em;
-    line-height: 1.5em;
-    margin-top: 1.5em;
-    margin-bottom: 0em;
-  }
   .hero-headline {
     width: 60%;
   }
   .hero-image {
-    width: 85%;
+    width: 95%;
     margin-top: 1em;
   }
   nav {
@@ -576,13 +564,13 @@ footer {
   }
   .hero-headline h4 {
     font-family: 'spectral', serif;
-    font-size: 1em;
+    font-size: 1.3em;
     line-height: 1.5em;
     margin-top: 1.5em;
     margin-bottom: 0em;
   }
   .hero-headline {
-    width: 60%;
+    width: 80%;
   }
   .hero-image {
     width: 100%;
