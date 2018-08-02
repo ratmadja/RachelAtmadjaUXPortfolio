@@ -1,5 +1,24 @@
 function onReady() {
 
+  //Jquery for changing img source for mobile
+
+  let coverSwap = function() {
+    if ($(window).width() < 481) {
+      $('#CoverNimbusDash').attr('src','assets/homepage/coverNimbusDashCenteredMobile.jpg');
+      $('#CoverNimbusLanding').attr('src','assets/homepage/coverNimbusLandingCenteredMobile.jpg');
+    } else {
+      $('#CoverNimbusDash').attr('src','assets/homepage/coverNimbusDashCentered.jpg');
+      $('#CoverNimbusLanding').attr('src','assets/homepage/coverNimbusLandingCentered.jpg');
+    }
+  };
+
+  $(window).on('resize', function(){
+    coverSwap();
+  });
+
+  coverSwap();
+
+
 
   //JQuery for Jump-to-element
   //Will only work if href of <a> matches id of element to jump to
@@ -18,7 +37,6 @@ function onReady() {
       }
     }
   });
-
 
 
   //JQuery for stickyTopNav
