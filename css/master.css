@@ -264,6 +264,7 @@ header {
 
 .section-pastwork {
   /* border: 1px solid #c3c3c3; */
+  margin-top: 2.75em;
   margin-bottom: 9em;
   display: grid;
   grid-gap: 0em 1.5em;
@@ -508,8 +509,8 @@ footer {
     margin-top: 3em;
     margin-bottom: 0em;
   }
-  .pastwork-title {
-    display: none;
+  .section-pastwork {
+    margin-top: 0.75em;       /* controls distance to nav */
   }
   .pwArch,
   .pwFloristry,
@@ -615,9 +616,9 @@ footer {
   .section-pastwork {
     margin-bottom: 2em;
   }
-  .pastwork-title {
+  /* .pastwork-title {
     display: none;
-  }
+  } */
   .pastwork-heading {
     font-size: 1.25em;
   }
@@ -642,6 +643,10 @@ footer {
 
 /*purplezone*/
 @media only screen and (min-width: 280px) and (max-width: 479px) {
+
+  /* .container {
+    border: 1px solid purple;
+  } */
 
   .casestudy-scope {
     font-size: 0.8em;
@@ -739,9 +744,9 @@ footer {
   .section-pastwork {
     margin-bottom: 2em;
   }
-  .pastwork-title {
+  /* .pastwork-title {
     display: none;
-  }
+  } */
   .pastwork-heading {
     font-size: 1.25em;
   }

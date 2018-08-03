@@ -154,7 +154,7 @@ header {
 
 /*------- Start of hero styling -------*/
 .hero-content {
-  /* border: 1px solid grey; */
+  /* border: 1px solid red; */
   background-color: #FAFAFA;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -198,6 +198,7 @@ header {
 
 
 .about {
+  /* border: 1px solid red; */
   margin-bottom: 9em;
 }
 
@@ -395,7 +396,7 @@ footer {
     width: 57px;
   } */
   .hero-content {
-    margin: 3em 0em;
+    margin: 2.75em 0em;
   }
 }
 
@@ -423,7 +424,7 @@ footer {
     width: 57px;
   }
   .hero-content {
-    margin-top: 3em;
+    margin-top: 2.75em;
   }
   .about h3,
   .about h4,
@@ -467,7 +468,8 @@ footer {
     width: 57px;
   }
   .hero-content {
-    margin: 2em 0em;
+    margin-top: 2.75em;
+    margin-bottom: 2em;
   }
   .about h3,
   .about h4,
@@ -523,7 +525,7 @@ footer {
   }
 
   .hero-content {    /* Modified from 450-574px */
-    margin-top: 1em;
+    margin-top: 2.75em;
   }
   .hero-right {
     display: none;
