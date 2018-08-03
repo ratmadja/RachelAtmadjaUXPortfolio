@@ -198,6 +198,7 @@ header {
   height: 1px;
   background-color: #DA9218;
   margin-top: 2em;  /*Controls distance to section-title*/
+  margin-bottom: 9em;
 }
 
 
@@ -205,7 +206,8 @@ header {
 
 .section-work {
   /* border: 1px solid grey; */
-  margin-top: 9em;
+  /* margin-top: 9em; */
+  margin-bottom: 9em;
 }
 
 .work-casestudy {
@@ -262,7 +264,6 @@ header {
 
 .section-pastwork {
   /* border: 1px solid #c3c3c3; */
-  margin-top: 9em;
   margin-bottom: 9em;
   display: grid;
   grid-gap: 0em 1.5em;
@@ -647,7 +648,8 @@ footer {
   }
 
   .section-work {   /* Controls spacing above first casestudy*/
-    margin-top: 9em;
+    /* margin-top: 9em; */
+    margin-bottom: 9em;
   }
   main {
     margin: 0em 1.5em;
@@ -731,9 +733,9 @@ footer {
 
   /* adjusted case study to vertical orientation */
 
-  .worklink {
+  /* .worklink {
     display: none;
-  }
+  } */
   .section-pastwork {
     margin-bottom: 2em;
   }

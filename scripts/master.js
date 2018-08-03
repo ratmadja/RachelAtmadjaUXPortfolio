@@ -3,12 +3,14 @@ function onReady() {
   //Jquery for changing img source for mobile
 
   let coverSwap = function() {
-    if ($(window).width() < 481) {
+    if ($(window).width() < 768) {
       $('#CoverNimbusDash').attr('src','assets/homepage/coverNimbusDashCenteredMobile.jpg');
       $('#CoverNimbusLanding').attr('src','assets/homepage/coverNimbusLandingCenteredMobile.jpg');
+      $('#CoverFanBeast2').attr('src','assets/homepage/coverFanBeast2Mobile.jpg');
     } else {
       $('#CoverNimbusDash').attr('src','assets/homepage/coverNimbusDashCentered.jpg');
       $('#CoverNimbusLanding').attr('src','assets/homepage/coverNimbusLandingCentered.jpg');
+      $('#CoverFanBeast2').attr('src','assets/homepage/coverFanBeast2.jpg');
     }
   };
 
@@ -31,7 +33,7 @@ function onReady() {
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
         $('html,body').animate({
-          scrollTop: target.offset().top -100
+          scrollTop: target.offset().top -24
         }, 1000);
         return false;
       }

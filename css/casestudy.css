@@ -79,6 +79,23 @@ p {
 }
 
 /* End of typography sizes */
+.divlink {
+  display: flex;
+  justify-content: center;
+}
+.sitelink {
+  margin-top: 2.5em;
+  color: #333333;
+  font-size: 1.5em;
+  font-family: 'work sans', sans-serif;
+  text-decoration: none;
+  line-height: 1.5em;
+  border-bottom: 1px solid #C5C5C5;
+}
+
+.sitelink:hover {
+  border-bottom: 1px solid #DA9218;
+}
 
 .worklink {
   display: inline-block;
