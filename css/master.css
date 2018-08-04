@@ -81,9 +81,9 @@ p {
   font-family: 'work sans', sans-serif;
   font-weight: 400;
   font-size: 0.85em;
-  line-height: 1.5em;
-  margin-top: 1.5em;
-  margin-bottom: -4.5em;
+  line-height: 1em;
+  margin-top: 0.5em;
+  /* margin-bottom: -4.5em; */
   font-stretch: expanded;
   color: #919191;
 
@@ -204,15 +204,13 @@ header {
 
 /* Start of WORK Styling */
 
-.section-work {
-  /* border: 1px solid grey; */
-  /* margin-top: 9em; */
-  margin-bottom: 9em;
+.section-work {   /* Controls spacing above first casestudy*/
+  margin-top: 2.75em;
+  margin-bottom: 3.5em;
 }
 
 .work-casestudy {
   /* border: 1px solid red; */
-  margin-top: 4em;
   display: grid;
   grid-gap: 0em 1.5em;
   grid-template-columns: repeat(12, 1fr);
@@ -273,6 +271,7 @@ header {
 
 .pastwork-title {
   color: #919191;
+  margin-top: 0.5em;
 }
 
 .pastwork-heading {
@@ -424,7 +423,6 @@ footer {
   .hero-info {
     margin-top: 2em;
   }
-
   /*--aligns pastwork links--*/
   .pastwork-descandlink {
     height: 200px;
@@ -509,6 +507,10 @@ footer {
     margin-top: 3em;
     margin-bottom: 0em;
   }
+  .section-work {   /* Controls spacing above first casestudy*/
+    margin-top: 2.75em;
+    margin-bottom: 3.5em;
+  }
   .section-pastwork {
     margin-top: 0.75em;       /* controls distance to nav */
   }
@@ -538,7 +540,6 @@ footer {
   /* .container {
     border: 1px solid green;
   } */
-
   .casestudy-scope {
     font-size: 0.8em;
   }
@@ -601,6 +602,10 @@ footer {
     margin-top: 3em;
     margin-bottom: 0em;
   }
+  .section-work {   /* Controls spacing above first casestudy*/
+    margin-top: 2.75em;
+    margin-bottom: 5em;
+  }
 
   /* adjusted case study to vertical orientation */
 
@@ -647,14 +652,12 @@ footer {
   /* .container {
     border: 1px solid purple;
   } */
-
+  .section-work {   /* Controls spacing above first casestudy*/
+    margin-top: 2.75em;
+    margin-bottom: 5em;
+  }
   .casestudy-scope {
     font-size: 0.8em;
-  }
-
-  .section-work {   /* Controls spacing above first casestudy*/
-    /* margin-top: 9em; */
-    margin-bottom: 9em;
   }
   main {
     margin: 0em 1.5em;
@@ -738,15 +741,9 @@ footer {
 
   /* adjusted case study to vertical orientation */
 
-  /* .worklink {
-    display: none;
-  } */
   .section-pastwork {
     margin-bottom: 2em;
   }
-  /* .pastwork-title {
-    display: none;
-  } */
   .pastwork-heading {
     font-size: 1.25em;
   }
