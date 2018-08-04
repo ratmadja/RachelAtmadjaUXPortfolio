@@ -269,11 +269,6 @@ header {
   grid-template-columns: repeat(12, 1fr);
 }
 
-.pastwork-title {
-  color: #919191;
-  margin-top: 0.5em;
-}
-
 .pastwork-heading {
   height: 1.5em;
 }
@@ -621,9 +616,6 @@ footer {
   .section-pastwork {
     margin-bottom: 2em;
   }
-  /* .pastwork-title {
-    display: none;
-  } */
   .pastwork-heading {
     font-size: 1.25em;
   }
